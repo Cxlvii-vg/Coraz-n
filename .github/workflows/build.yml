@@ -25,7 +25,7 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed --name "TeAmo" main.py
+        pyinstaller --onefile --windowed --name "TeAmo" Teamo.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
